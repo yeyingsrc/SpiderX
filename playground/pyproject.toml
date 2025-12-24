@@ -1,0 +1,9 @@
+[project]
+name = "playground"
+version = "0.1.0"
+description = "SpiderX playground"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "flask>=3.1.1",
+]

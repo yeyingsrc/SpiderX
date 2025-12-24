@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>留言页面</title>
+</head>
+<body>
+    <h2>留言页面</h2>
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            <ul>
+                {% for message in messages %}
+                    <li style="color: green;">{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    {% endwith %}
+    <form action="/messages" method="post">
+        <div>
+            <label for="message">留言:</label>
+            <textarea id="message" name="message" required></textarea>
+        </div>
+        <div>
+            <button type="submit">提交留言</button>
+        </div>
+    </form>
+</body>
+</html>
