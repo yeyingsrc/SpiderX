@@ -6,6 +6,12 @@
 
 ## 修改日志
 
+### 2026年
+
+把笨重的gui换成了可云上线的web端，部署使用都方便起来了，具体跳转到下链接
+
+https://github.com/LiChaser/LichAuto1
+
 ### 2025年7月23日
 
 1. 使用 [uv](https://docs.astral.sh/uv/getting-started/installation/) 作为包管理器，通过 [pyproject.toml](pyproject.toml) 实现更精准的 Python 及各个依赖的版本控制。
