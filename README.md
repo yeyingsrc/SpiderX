@@ -10,7 +10,7 @@
 
 把笨重的gui换成了可云上线的web端，部署使用都方便起来了，具体跳转到下链接
 
-[https://github.com/LiChaser/LichAuto1](https://github.com/LiChaser/Lich-Spiderx)
+https://github.com/LiChaser/Lich-Spiderx
 
 ### 2025年7月23日
 
